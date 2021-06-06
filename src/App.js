@@ -86,7 +86,7 @@ class App extends Component {
             {/* this will make the div span 10 columns, stay at the center and add a margin at the top (mt-4). */}
             <h1 className="text-capitalize text-center">
               {" "}
-              welcome to Remilekun's Todo App
+              Remilekun's Todo App
             </h1>
             <br />
             <h4 className="text-capitalize text-center">

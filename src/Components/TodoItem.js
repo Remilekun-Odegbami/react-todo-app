@@ -23,7 +23,7 @@ export default class TodoItem extends Component {
     const { title, handleDelete, handleEdit } = this.props;
     return (
       <li className="list-group-item text-capitalize d-flex justify-content-between my-2">
-        <h6
+        <h4
           style={{
             color: this.state.color,
             fontSize: this.state.fontSize,
@@ -31,7 +31,7 @@ export default class TodoItem extends Component {
           }}
         >
           {title}
-        </h6>
+        </h4>
         <div className="todo-icon">
           <span className="mx-2 text-success" onClick={handleEdit}>
             <i className="fa fa-pencil"></i>
